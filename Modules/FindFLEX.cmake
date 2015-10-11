@@ -169,7 +169,7 @@ if(FLEX_EXECUTABLE)
       ${ARGN}
       )
     
-    set(FLEX_TARGET_usage "FLEX_TARGET(<Name> <Input> <Output> [COMPILE_FLAGS <string>]")
+    set(FLEX_TARGET_usage "FLEX_TARGET(<Name> <Input> <Output> [COMPILE_FLAGS <string>] [DEFINES_FILE <string>]")
     
     if(NOT "${FLEX_TARGET_ARG_UNPARSED_ARGUMENTS}" STREQUAL "")
       message(SEND_ERROR ${FLEX_TARGET_usage})
